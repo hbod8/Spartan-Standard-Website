@@ -1,0 +1,50 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #166baa;
+} body {
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #feffc1;
+    box-shadow: 0px 0px 10px #000;
+} p,h2,h3,h4,h5,h6,li {
+    font-family: 'Roboto', sans-serif;
+} p {
+    font-size: 1em;
+} h1 {
+    font-size: 2.5em;
+} h2 {
+    font-size: 2em;
+} h3 {
+    font-size: 1.75em;
+} h4 {
+    font-size: 1.5em;
+} h5 {
+    font-size: 1.25em;
+} h6 {
+    font-size: 1.1em;
+} li {
+    font-size: 1em;
+} .nav {
+    display: block;
+} .navbar {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+} .navitem {
+    display: block;
+    float: left;
+    width: calc(100% / 6);
+    text-align: center;
+    background-color: #efde81;
+    padding-top: 6px;
+    padding-bottom: 6px;
+} .navlink {
+    text-decoration: none;
+} .navtext {
+    font-size: 1.2em;
+}
