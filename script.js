@@ -15,7 +15,7 @@ $(document).ready(function() {
     
     function displayNews(news) {
         $('.news').html('<h3>' + news[0].title + '</h3>');
-        $('.news').html('<p><em>' + news[0].date-uploaded + '</em></p>');
+        $('.news').html('<p><em>' + news[0].date_uploaded + '</em></p>');
         $('.news').html('<h5>' + news[0].description + '</h5>');
     }
 });
