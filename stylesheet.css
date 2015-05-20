@@ -41,10 +41,20 @@ html {
     width: calc(100% / 6);
     text-align: center;
     background-color: #efde81;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    border-bottom: 3px solid #efde81;
 } .navlink {
     text-decoration: none;
 } .navtext {
-    font-size: 1.2em;
+    font-size: 1.75em;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    font-weight: bold;
+    color: #0e5081;
+} .navitem:hover {
+    -moz-transition: border-bottom 200ms;
+    -o-transition: border-bottom 200ms;
+    -webkit-transition: border-bottom 200ms;
+    transition: border-bottom 200ms;
+    border-bottom: 3px solid #000;
 }
