@@ -13,8 +13,9 @@ $(document).ready(function() {
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
     
-    
     function displayNews(news) {
         $('.news').html('<h3>' + news[0].title + '</h3>');
+        $('.news').html('<p><em>' + news[0].date-uploaded + '</em></p>');
+        $('.news').html('<h5>' + news[0].description + '</h5>');
     }
 });

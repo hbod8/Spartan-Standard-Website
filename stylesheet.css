@@ -57,4 +57,5 @@ html {
     -webkit-transition: border-bottom 200ms;
     transition: border-bottom 200ms;
     border-bottom: 3px solid #000;
-}
+} .news {
+    margin: 3% 3% 3% 3%;
