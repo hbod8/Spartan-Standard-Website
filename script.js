@@ -14,8 +14,6 @@ $(document).ready(function() {
     xmlhttp.send();
     
     function displayNews(news) {
-        $('.news').html('<h3>' + news[0].title + '</h3>');
-        $('.news').html('<p><em>' + news[0].date_uploaded + '</em></p>');
-        $('.news').html('<h5>' + news[0].description + '</h5>');
+        $('.news').html('<h3>' + news[0].title + '</h3>' + '<p><em>' + news[0].date_uploaded + '</em></p>' + '<h5>' + news[0].description + '</h5>');
     }
 });
