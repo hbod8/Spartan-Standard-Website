@@ -3,6 +3,7 @@ html {
     padding: 0;
     background-color: #166baa;
 } body {
+    top: 0px;
     height: 100%;
     padding: 0;
     margin-top: 0px;
@@ -11,9 +12,11 @@ html {
     margin-right: 10%;
     background-color: #feffc1;
     box-shadow: 0px 0px 10px #000;
-} p,h2,h3,h4,h5,h6,li {
+} p,h2,h3,h4,h5,h6,li,em,b,code {
+    display: block;
+} p,h2,h3,h4,h5,h6,li,em,b {
     font-family: 'Roboto', sans-serif;
-} p {
+} p,em,code,b {
     font-size: 1em;
 } h1 {
     font-size: 2.5em;
@@ -59,4 +62,33 @@ html {
     transition: border-bottom 200ms;
     border-bottom: 3px solid #000;
 } .news {
-    margin: 3% 3% 3% 3%;
+    width: 100%;
+    table-layout: fixed;
+} .newsitem {
+    background-color: #104e8b;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 3px 3px 10px #6d6d53;
+} .newsitem h5 {
+    text-align: center;
+    margin: 0;
+    color: #fff;
+} .newsitem h2 {
+    text-align: center;
+    margin: 0;
+    color: #fff;
+} .newsitem em {
+    text-align: center;
+    margin: 0;
+    font-size: .8em;
+} .newsitem p {
+    text-align: justify;
+    margin: 0;
+    color: #fff;
+} .newsitem:hover {
+    box-shadow: 5px 5px 15px #6d6d53;
+} .backbutton {
+    text-decoration: none;
+    background-color: #efde81;
+    border: 2px solid #000;
+    border-radius: 3px;
+}
