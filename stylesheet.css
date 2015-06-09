@@ -63,11 +63,12 @@ html {
     border-bottom: 3px solid #000;
 } .news {
     width: 100%;
-    table-layout: fixed;
 } .newsitem {
     background-color: #104e8b;
     padding: 5px 5px 5px 5px;
     box-shadow: 3px 3px 10px #6d6d53;
+    width: calc(100% / 3);
+    height: calc(100% / 3);
 } .newsitem h5 {
     text-align: center;
     margin: 0;

@@ -15,14 +15,16 @@
                 <a class="navlink" href="index.html"><li class="navitem"><p class="navtext">...</p></li></a>
             </ul>
         </div>
-        <table cellspacing="10px" class="news">
+        <div class="news">
             <?php
 $file = fopen("news.json", "r") or die("Error");
 $fileContents = fread($file, filesize("news.json"));
 fclose($file);
 
 $JSONData = json_decode($fileContents);
+
+echo '<div class="newsItem"></div>';
             ?>
-        </table>
+        </div>
     </body>
 </html>
