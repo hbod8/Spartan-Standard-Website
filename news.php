@@ -23,7 +23,7 @@ fclose($file);
 
 $JSONData = json_decode($fileContents);
 
-echo '<div class="newsItem"></div>';
+echo '<div class=\"newsItem\"></div>';
             ?>
         </div>
     </body>
