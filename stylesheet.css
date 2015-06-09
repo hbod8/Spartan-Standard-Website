@@ -91,4 +91,9 @@ html {
     background-color: #efde81;
     border: 2px solid #000;
     border-radius: 3px;
+} .divider {
+    border-width: .12em;
+    border-color: #000000;
+} .homebar {
+    background-color: #fbfccb;
 }
