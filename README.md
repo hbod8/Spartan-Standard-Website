@@ -1,6 +1,8 @@
 # Spartan Standard Website
 The official website for The Spartan Standard newspaper.
 
+<iframe src="https://rawgit.com/hbod8/Spartan-Standard-Website/master/index.html"></iframe>
+
 ## Table of Contents:
 1. [About & Licence](#about)
 2. [How to Upload New Articles](#upload)
